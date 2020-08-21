@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joss y sus airpods</title>
+  <style>
+    main {
+      font-family: Avenir;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100vw;
+      height: 100vh;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Joss se ha tocado los audífonos:</h1>
+    <p></p>
+  </main>
+</body>
+<script>
+  const p = document.querySelector('p')
+  p.innerText = new Date().getTime() + ' veces'
+</script>
+</html>
